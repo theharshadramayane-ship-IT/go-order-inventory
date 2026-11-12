@@ -1,0 +1,46 @@
+# ===== Go build artifacts =====
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+main
+/build/
+
+# ===== Go workspace =====
+go.work
+go.work.sum
+
+# ===== Environment & secrets (never commit) =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ===== Test & coverage =====
+coverage.out
+coverage.html
+*.coverprofile
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Misc =====
+tmp/
+temp/
